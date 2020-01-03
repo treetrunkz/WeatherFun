@@ -100,7 +100,7 @@ componentDidUpdate(prevProps, prevState){
         </div>
     <div class="card-content">          
       <span class="card-title activator grey-text text-dark-4">{this.state.cityName}<i class="material-icons-right"><img src={iconUrl}></img></i></span>
-      <h4>High: {this.state.cityName} - Low: {this.state.low}</h4>
+      <h4>High: {this.state.high} - Low: {this.state.low}</h4>
       <p>{this.state.isRaining}</p>
       
     </div>
